@@ -1,0 +1,34 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+ICS                                                                               0x0284      12
+ptr                                                                               0x0290      12
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+i                                                                                 R5           1
+j                                                                                 R4           1
+check                                                                             R7           1
+IC_FOUND                                                                          R6           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+ic_74164                                                                          0x000AA    172
+ic_74165                                                                          0x00156    126
+ic_74166                                                                          0x001D4    145
+ic_74173                                                                          0x00265    151
+ic_74174                                                                          0x002FC    120
+ic_74175                                                                          0x00374    119
+main                                                                              0x003EB     77
+putchar                                                                           0x00438      7
+put_usart_G100                                                                    0x0043F     14
+_print_G100                                                                       0x0044D    296
+printf                                                                            0x00575     39
+strlen                                                                            0x0059C     12
+strlenf                                                                           0x005A8     13
